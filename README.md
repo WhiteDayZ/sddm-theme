@@ -72,8 +72,8 @@ And as if that wouldn't still be enough you can **translate every single button 
 **`ScaleImageCropped="true"`**  
 *Whether the image should be cropped when scaled proportionally. Setting this to false will fit the whole image instead, possibly leaving white space. This can be exploited beautifully with illustrations (try it with "undraw.svg" included in the theme).*  
 
-**`ScreenWidth="1440"`**  
-**`ScreenHeight="900"`**  
+**`ScreenWidth="1920"`**  
+**`ScreenHeight="1080"`**  
 *Adjust to your resolution to help SDDM speed up on calculations.*  
 
 **`FullBlur="false"`**  
@@ -98,7 +98,7 @@ And as if that wouldn't still be enough you can **translate every single button 
 **`MainColor="white"`**  
 *Used for all elements when not focused/hovered etc. Usually the best effect is achieved by having this be either white or a very dark grey like #444 (not black for smoother antialias). Colors can be HEX or Qt names (e.g. red/salmon/blanchedalmond). See [https://doc.qt.io/qt-5/qml-color.html](https://doc.qt.io/qt-5/qml-color.html)*  
 
-**`AccentColor="#fb884f"`**  
+**`AccentColor="#FB4048"`**  
 *Used for elements in focus/hover/pressed. Should be contrasting to the background and the MainColor to achieve the best effect.*  
 
 **`BackgroundColor="#444"`**  
@@ -119,10 +119,10 @@ And as if that wouldn't still be enough you can **translate every single button 
 **`ScreenPadding="0"`**  
 *Integer in pixels. Increase or delete this to have a padding of color BackgroundColor all around your screen. This makes your login greeter appear as if it was a canvas. Cool!*  
 
-**`Font="Noto Sans"`**  
+**`Font="Orbitron"`**  
 *If you want to choose a custom font it will have to be available to the X root user. See https://wiki.archlinux.org/index.php/fonts#Manual_installation*  
 
-**`FontSize=""`**  
+**`FontSize="14.5"`**  
 *Only set a fixed value if fonts are way too small for your resolution. Preferrably kept empty.*  
 
 **`ForceRightToLeft="false"`**  
@@ -146,7 +146,7 @@ And as if that wouldn't still be enough you can **translate every single button 
 **`AllowEmptyPassword="false"`**  
 *Enable login for users without a password. This is discouraged. Makes the login button always enabled.*  
 
-**`AllowBadUsernames="false"`**  
+**`AllowBadUsernames="true"`**  
 *Do not change this! Uppercase letters are generally not allowed in usernames. This option is only for systems that differ from this standard! Also shows username as is instead of capitalized.*  
 
 **`Locale=""`**  
@@ -155,10 +155,12 @@ And as if that wouldn't still be enough you can **translate every single button 
 **`HourFormat="HH:mm"`**  
 *Defaults to Locale.ShortFormat - Accepts "long" or a custom string like "hh:mm A". See http://doc.qt.io/qt-5/qml-qtqml-date.html*  
 
-**`DateFormat="dddd, d of MMMM"`**  
+**`DateFormat="dddd, d MMMM"`**  
 *Defaults to Locale.LongFormat - Accepts "short" or a custom string like "dddd, d 'of' MMMM". See http://doc.qt.io/qt-5/qml-qtqml-date.html*  
 
-**`HeaderText="Welcome!"`**  
+**`HeaderText="Never
+ Fade
+Away"`**  
 *Header can be empty to not display any greeting at all. Keep it short.*  
 
 *SDDM may lack proper translation for every element. Sugar defaults to SDDM translations. Please help translate SDDM as much as possible for your language: https://github.com/sddm/sddm/wiki/Localization. These are in order as they appear on screen.*  
@@ -175,46 +177,6 @@ And as if that wouldn't still be enough you can **translate every single button 
 **`TranslateReboot=""`**  
 **`TranslateShutdown=""`**  
 **`TranslateVirtualKeyboardButton=""`**  
-*These don't necessarily need to translate anything. You can enter whatever you want here.*  
+*These don't necessarily need to translate anything. You can enter whatever you want here.* 
 
-
-### Legal Notice
-
-This file is part of SDDM Sugar Candy.
-A theme for the Simple Display Desktop Manager.
-
-Copyright (C) 2018–2020 Marian Arlt
-
-SDDM Sugar Candy is free software: you can redistribute it and/or modify it
-under the terms of the GNU General Public License as published by the
-Free Software Foundation, either version 3 of the License, or any later version.
-
-You are required to preserve this and any additional legal notices, either
-contained in this file or in other files that you received along with
-SDDM Sugar Candy that refer to the author(s) in accordance with
-sections §4, §5 and specifically §7b of the GNU General Public License.
-
-SDDM Sugar Candy is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with SDDM Sugar Candy. If not, see <https://www.gnu.org/licenses/>
-
-
-### Other awesome projects
-
-- [Chili—the hottest login theme for KDE Plasma](https://www.opendesktop.org/p/1214121)
-- [Chili stand-alone fork for SDDM only](https://www.opendesktop.org/p/1240784)
-- [Flat OSX like aurorae window decorations for your Linux desktop](https://www.opendesktop.org/p/1199822) and [its high contrast version](https://www.opendesktop.org/p/1246756)
-- [Finely crafted folder icons for Linux](https://www.opendesktop.org/p/1228310)
-- [Inline clock widget for KDE Plasma](https://www.opendesktop.org/p/1245902)
-
-
-### Motivate a developer
-
-In the past years I have spent quite some hours on open source projects. If you are the type of person who digs attention to detail, know how much work is involved in it and/or simply likes to support makers with a coffee or a beer I would greatly appreciate your donation on my [PayPayl](https://www.paypal.me/marianarlt) account.  
-Alternatively downloading my themes directly from opendesktop or with the kde sddm system settings module will at least help me a little to be able to attend your issues and requests.  
-Please consider helping developers you think are worth a penny or two, literally.
 # sddm-theme
