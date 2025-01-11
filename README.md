@@ -1,13 +1,3 @@
-You asked for more, you shall get it. Sugar Candy is the latest release in the Sugar series of SDDM themes. It's so extremely sweet your pancreas will have difficulties digesting its awesomeness.  
-
-Sweeten the login experience for your users, your family and yourself. Sugar Candy works on almost all major distributions—see below—and focuses on a straight forward user experience and superb functionality while still offering vast customization possibilities.  
-
-Sugar Candy is based on the Sugar series which was **written completely from scratch** making it clean and simple not only by looks but by design too.  
-All controls use the [latest Qt Quick Controls 2](http://doc.qt.io/qt-5/qtquickcontrols2-index.html) for [increased performance](https://blog.qt.io/blog/2015/03/31/qt-quick-controls-for-embedded/) on low end or even embedded systems and beautiful color transitions.  
-
-To learn how to control sugar levels read the section below about customization. Your secret sauce is located at ./sddm/themes/sugar-candy/theme.conf! There are **46 customizable variables** in total! This candy will be yours and only yours.  
-
-
 ### Installation  
 
 **From within KDE Plasma**  
@@ -178,5 +168,3 @@ Away"`**
 **`TranslateShutdown=""`**  
 **`TranslateVirtualKeyboardButton=""`**  
 *These don't necessarily need to translate anything. You can enter whatever you want here.* 
-
-# sddm-theme
